@@ -1,6 +1,6 @@
 temp1 = input("enter the string ").lower()
 
-temp2 =temp1[-1::-1]
+temp2 =temp1[::-1]
 
 
 if temp1 == temp2:
