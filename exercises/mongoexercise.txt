@@ -1,0 +1,33 @@
+show dbs;
+db use MongoDB
+
+db.createcollection(PersonalInfo)
+db.createcollection(ProfessionalInfo)
+
+
+db.PersonalInfo.insert({"empid" : "X20221010", db.PersonalInfo.insert({empid : "X20221010",Empname:"pritam",age: "26",gender : "male",contact: "9876544231",city:"bangalore")}
+
+db.PersonalInfo.insertMany([{empid : "X20221012", Empname:"sonam", age: "29", gender: "female", contact: "98076453", city : "bangaluru"},{empid : "x20221013", Empname: "shehkar", age: "29", gender: "male", contact:" ",city: "pune"}])
+
+
+
+MonogDB> db.ProfessionalInfo.insert({Designation : "Consultant", Department:"Finance", Income: "8000"})
+{
+  acknowledged: true,
+  insertedIds: { '0': ObjectId("6348ed1ff78de4114632dcdf") }
+}
+MonogDB> db.ProfessionalInfo.insert({Designation : "Sr.developer", Department:"IT", Income: "9000"})
+{
+  acknowledged: true,
+  insertedIds: { '0': ObjectId("6348ed54f78de4114632dce0") }
+}
+MonogDB> db.ProfessionalInfo.insert({Designation : "lead", Department:"IT", Income: "15000"})
+{
+  acknowledged: true,
+  insertedIds: { '0': ObjectId("6348ed86f78de4114632dce1") }
+}
+MonogDB> db.ProfessionalInfo.insert({Designation : "manager", Department:"IT", Income: "45000"})
+{
+  acknowledged: true,
+  insertedIds: { '0': ObjectId("6348edaef78de4114632dce2") }
+}
