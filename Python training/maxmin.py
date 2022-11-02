@@ -6,6 +6,7 @@ def maxmin(arr):
         if sp != 0:
             summ = sum(arr)
             sp +=1
+            
     print(summ)
 
 
