@@ -17,8 +17,9 @@ average arrival delay
 ## OUTPUT 3
 
 ````
-![alt text](https://github.com/Arbaxali/UST-/blob/main/exercises/assignment4/Figure_1.png)
+![alt text](https://github.com/Arbaxali/UST-/blob/main/exercises/assignment4/Figure_1.png?raw=true)
 
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true
 ````
 
 ## OUTPUT 4
