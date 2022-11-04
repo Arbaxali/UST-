@@ -17,15 +17,15 @@ average arrival delay
 ## OUTPUT 3
 
 ````
-![alt text](https://github.com/Arbaxali/UST-/blob/main/exercises/assignment4/Figure_1.png?raw=true)
+![alt text](![Figure_1](https://user-images.githubusercontent.com/30619186/199966150-0f114e7e-43ad-459f-bd7e-cf52cc6e1a6a.png))
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true
 ````
 
 ## OUTPUT 4
 
 ````
-![alt text](https://github.com/Arbaxali/UST-/blob/main/exercises/assignment4/Figure_2.png)
+![alt text](![Figure_2](https://user-images.githubusercontent.com/30619186/199966525-f343ce4d-1c9c-4948-b2fb-a8d5ee6a0421.png)
+)
 
 ````
 
@@ -40,21 +40,24 @@ max and min {'max cancelation': 1, 'min cancelation': 0}
 ## OUTPUT 6
 
 ````
-![alt text](https://github.com/Arbaxali/UST-/blob/main/exercises/assignment4/Figure_3.png)
+![Figure_3](https://user-images.githubusercontent.com/30619186/199966643-43725d25-d50a-40b4-a7f8-69121d103ccc.png)
+
 
 ````
 
 ## OUTPUT 7
 
 ````
-![alt text](https://github.com/Arbaxali/UST-/blob/main/exercises/assignment4/Figure_4.png)
+![Figure_4](https://user-images.githubusercontent.com/30619186/199966711-f3803f4f-d78b-4f48-b206-ee087ba12671.png)
+
 
 ````
 
 ## OUTPUT 8
 
 ````
-![alt text](https://github.com/Arbaxali/UST-/blob/main/exercises/assignment4/Figure_5.png)
+![Figure_5](https://user-images.githubusercontent.com/30619186/199966762-79844332-d948-4f7d-a72a-c11f7ae3b3bf.png)
+
 
 ````
 
