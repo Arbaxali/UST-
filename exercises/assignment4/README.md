@@ -81,3 +81,32 @@ day_diversion {'_id': 'HA', 'total_counts': 722}
 day_diversion {'_id': 'VX', 'total_counts': 573}
 
 ````
+## OUTPUT 10
+
+````
+
+Mean: DEPARTURE_DELAY    11.329091
+dtype: float64
+Standard Deviation: DEPARTURE_DELAY    39.620916
+dtype: float64
+
+
+````
+
+## OUTPUT 11
+
+````
+Mean: ARRIVAL_DELAY    7.545458
+dtype: float64
+Standard Deviation: ARRIVAL_DELAY    42.378386
+dtype: float64
+
+````
+
+## OUTPUT 12
+
+````
+
+
+
+
