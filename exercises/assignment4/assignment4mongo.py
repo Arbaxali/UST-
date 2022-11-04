@@ -101,12 +101,21 @@ if __name__ == "__main__":
         print(item)
 
 # h). Finding airlines that make the maximum, minimum number of cancellations.
-    can_max_min=collection.aggregate([
-        {'$group': {'_id': 'null', 'max cancelation' : { '$max' : '$CANCELLED'},
-                                    'min cancelation' : { '$min' : '$CANCELLED'}}} ,
-        {'$project':{'_id':0}}])
-    for item in can_max_min:
-        print("max and min",item)    
+    min_cancellation = collection.aggregate([{'$match' : {'CANCELLED':1}},
+                                   {'$group':{'_id':'$AIRLINE',
+                                    'min_cancellation':{'$count':{}}}},
+                                   {'$sort':{'min_cancellation': 1}}, {'$limit':1}
+                                         ])
+    for i in min_cancellation:
+        print(i)
+    
+    max_cancellation = collection.aggregate([{'$match' : {'CANCELLED':1}},
+                                    {'$group':{'_id':'$AIRLINE',
+                                    'max_cancellation':{'$count':{}}}},
+                                    {'$sort':{'max_cancellation': -1}}, {'$limit':1}
+                                            ])
+    for i in max_cancellation:
+        print(i)
 
 
 # i). Find and show airlines names in descending that make the most number of diversions made. [Create a suitable plot using matplotlib/seaborn]
@@ -133,42 +142,45 @@ if __name__ == "__main__":
 
 
 # # k). Calculating mean and standard deviation of departure delay for all flights in minutes
-
-    departure_delay = collection.aggregate([{'$group':{'_id':'$DEPARTURE_DELAY'}}])
-    dd = []
-    for item in departure_delay:
-        dd.append(item['_id'])
-        
+    departure_delay = collection.find({},{'DEPARTURE_DELAY':1,'_id':0})
+    
+    departure_delay_df=pd.DataFrame(departure_delay)
+    print("Mean:",departure_delay_df.mean())
+    print("Standard Deviation:",departure_delay_df.std())
+    
     
 
-    res = [int(a) for a in dd]
-    print(np.std(res) )
-    print("mean of  this sequence is ", np.mean(dd))
-
-
-# # l). Calculating mean and standard deviation of arrival delay for all flights in minutes
-# arrival_delay = collection.aggregate([{'$group':{'_id':'ARRIVAL_DELAY'}}])
-# ad = []
-# for item in arrival_delay:
-#     ad.append(item['_id'])
-
-# print("standard deviation is ",np.std(ad) )
-# print("mean of  this sequence is ", np.mean(ad))    
+# L). Calculating mean and standard deviation of arrival delay for all flights in minutes
+    arrival_delay = collection.find({},{'ARRIVAL_DELAY':1,'_id':0})
+    
+    arrival_delay_df=pd.DataFrame(arrival_delay)
+    print("Mean:",arrival_delay_df.mean())
+    print("Standard Deviation:",arrival_delay_df.std())
 
 
 
+# m). Create a partitioning table “flights_partition” using partitioned by schema “CANCELLED”
+    no_of_diversions=collection.aggregate([{'$match':{'DIVERTED':1}},
+                                    {'$group' :{'_id' : {'ORIGIN_AIRPORT':'$ORIGIN_AIRPORT',"DESTINATION_AIRPORT":'$DESTINATION_AIRPORT'},
+                                               'Most_Deversions_Count':{'$sum':1}}},
+                                    {'$sort':{'Most_Deversions_Count':-1}}                    ])
+        
+    #ii)
+    no_of_diversions_df=pd.DataFrame(no_of_diversions)
+    diversions_max=no_of_diversions_df.get('Most_Deversions_Count').max()
+    
+    print(no_of_diversions_df[no_of_diversions_df['Most_Deversions_Count']==diversions_max]['_id'])
 
-# # m). Create a partitioning table “flights_partition” using partitioned by schema “CANCELLED”
 
-# # n). Finding all diverted Route from a source to destination Airport & which route is the most diverted route.
+
+
 
 # # o). When is the best time of day/day of week/time of a year to fly with minimum delays?
 
+    total_delay=collection.aggregate([{'$group':{'_id':'$_id','total':{'$sum':'$ARRIVAL_DELAY'}}},{'$sort': {'total':1}},
+                                  {'$limit':1}])
+    for i in total_delay:
+        print(i)
 
 
-
-
-# for item in   top_airlines:
-#      print(item)
-# #plt.plot(flight_data['alldoc_c'])
 
