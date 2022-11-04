@@ -106,7 +106,7 @@ dtype: float64
 ## OUTPUT 12
 
 ````
-
+{'_id': 2, 'No_of_Diversions': 15}
 ````
 
 ## OUTPUT 13
@@ -125,5 +125,10 @@ dtype: float64
 Name: _id, dtype: object
 
 ````
+## OUTPUT 14
 
+````
+{'_id': ObjectId('63649e59979ab9ec901003d4'), 'total': -76.0}
+
+````
 
