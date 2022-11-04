@@ -31,7 +31,8 @@ average arrival delay
 ## OUTPUT 5
 
 ````
-max and min {'max cancelation': 1, 'min cancelation': 0}
+{'_id': 'HA', 'min_cancellation': 3}
+{'_id': 'MQ', 'max_cancellation': 414}
 
 ````
 
