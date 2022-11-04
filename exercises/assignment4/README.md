@@ -8,7 +8,6 @@ MongoClient(host=['localhost:27017'], document_class=dict, tz_aware=False, conne
 ````
 
 ## OUTPUT 2
-
 ````
 average arrival delay 
 {'avgerage_arrival_delay': 7.545457931394093}
@@ -16,18 +15,18 @@ average arrival delay
 ````
 ## OUTPUT 3
 
-````
+
 ![alt text](![Figure_1](https://user-images.githubusercontent.com/30619186/199966150-0f114e7e-43ad-459f-bd7e-cf52cc6e1a6a.png))
 
-````
+
 
 ## OUTPUT 4
 
-````
+
 ![alt text](![Figure_2](https://user-images.githubusercontent.com/30619186/199966525-f343ce4d-1c9c-4948-b2fb-a8d5ee6a0421.png)
 )
 
-````
+
 
 ## OUTPUT 5
 
@@ -39,27 +38,27 @@ max and min {'max cancelation': 1, 'min cancelation': 0}
 
 ## OUTPUT 6
 
-````
+
 ![Figure_3](https://user-images.githubusercontent.com/30619186/199966643-43725d25-d50a-40b4-a7f8-69121d103ccc.png)
 
 
-````
+
 
 ## OUTPUT 7
 
-````
+
 ![Figure_4](https://user-images.githubusercontent.com/30619186/199966711-f3803f4f-d78b-4f48-b206-ee087ba12671.png)
 
 
-````
+
 
 ## OUTPUT 8
 
-````
+
 ![Figure_5](https://user-images.githubusercontent.com/30619186/199966762-79844332-d948-4f7d-a72a-c11f7ae3b3bf.png)
 
 
-````
+
 
 ## OUTPUT 9
 
