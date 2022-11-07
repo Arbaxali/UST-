@@ -47,7 +47,7 @@
 
 ````````
 
-## 4).Find the restaurants who achieved a score more than 90.
+## 4).Find the restaurants who achieved a score more than 90. (LIMTI-25)
 
 ````````
 ****************************************************************************************************
@@ -79,3 +79,103 @@
 ****************************************************************************************************
 
 ````````
+## 5). Show the restaurants that achieved a score, more than 80 but less than 100. (LIMIT-25)
+
+
+````````
+
+****************************************************************************************************
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 11}, {'score': 131}, {'score': 11}, {'score': 25}, {'score': 11}, {'score': 13}], 'name': "Murals On 54/Randolphs'S", 'restaurant_id': '40372466'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 5}, {'score': 8}, {'score': 12}, {'score': 2}, {'score': 9}, {'score': 92}, {'score': 41}], 'name': 'Gandhi', 'restaurant_id': '40381295'}
+{'borough': 'Manhattan', 'cuisine': 'Pizza/Italian', 'grades': [{'score': 31}, {'score': 98}, {'score': 32}, {'score': 21}, {'score': 11}], 
+'name': 'Bella Napoli', 'restaurant_id': '40393488'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 89}, {'score': 6}, {'score': 13}], 'name': 'West 79Th Street Boat Basin Cafe', 'restaurant_id': '40756344'}
+{'borough': 'Queens', 'cuisine': 'Thai', 'grades': [{'score': 14}, {'score': 84}, {'score': 11}, {'score': 23}], 'name': 'Spicy Shallot', 'restaurant_id': '40979431'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 84}, {'score': 5}, {'score': 10}, {'score': 36}, {'score': 12}, {'score': 27}], 'name': 'Bistro Caterers', 'restaurant_id': '40987023'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 90}, {'score': 27}, {'score': 12}, {'score': 10}], 'name': 'Concrete Restaurant', 'restaurant_id': '41363541'}
+{'borough': 'Brooklyn', 'cuisine': 'Italian', 'grades': [{'score': 18}, {'score': 12}, {'score': 24}, {'score': 18}, {'score': 81}], 'name': 'Anella', 'restaurant_id': '41410058'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 7}, {'score': 12}, {'score': 21}, {'score': 18}, {'score': 11}, {'score': 98}], 'name': "Baluchi'S Indian Food", 'restaurant_id': '41569277'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 11}, {'score': 11}, {'score': 82}, {'score': 11}, {'score': 19}, {'score': 29}], 'name': 'Cafe R', 'restaurant_id': '41574642'}
+{'borough': 'Brooklyn', 'cuisine': 'Chinese', 'grades': [{'score': 86}, {'score': 20}, {'score': 11}, {'score': 10}], 'name': 'D & Y Restaurant', 'restaurant_id': '50000040'}
+{'borough': 'Bronx', 'cuisine': 'Latin (Cuban, Dominican, Puerto Rican, South & Central American)', 'grades': [{'score': 10}, {'score': 82}], 'name': 'La Potencia Restaurant', 'restaurant_id': '50014192'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 11}, {'score': 131}, {'score': 11}, {'score': 25}, {'score': 11}, {'score': 13}], 'name': "Murals On 54/Randolphs'S", 'restaurant_id': '40372466'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 5}, {'score': 8}, {'score': 12}, {'score': 2}, {'score': 9}, {'score': 92}, {'score': 41}], 'name': 'Gandhi', 'restaurant_id': '40381295'}
+{'borough': 'Manhattan', 'cuisine': 'Pizza/Italian', 'grades': [{'score': 31}, {'score': 98}, {'score': 32}, {'score': 21}, {'score': 11}], 
+'name': 'Bella Napoli', 'restaurant_id': '40393488'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 89}, {'score': 6}, {'score': 13}], 'name': 'West 79Th Street Boat Basin Cafe', 'restaurant_id': '40756344'}
+{'borough': 'Queens', 'cuisine': 'Thai', 'grades': [{'score': 14}, {'score': 84}, {'score': 11}, {'score': 23}], 'name': 'Spicy Shallot', 'restaurant_id': '40979431'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 84}, {'score': 5}, {'score': 10}, {'score': 36}, {'score': 12}, {'score': 27}], 'name': 'Bistro Caterers', 'restaurant_id': '40987023'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 90}, {'score': 27}, {'score': 12}, {'score': 10}], 'name': 'Concrete Restaurant', 'restaurant_id': '41363541'}
+{'borough': 'Brooklyn', 'cuisine': 'Italian', 'grades': [{'score': 18}, {'score': 12}, {'score': 24}, {'score': 18}, {'score': 81}], 'name': 'Anella', 'restaurant_id': '41410058'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 7}, {'score': 12}, {'score': 21}, {'score': 18}, {'score': 11}, {'score': 98}], 'name': "Baluchi'S Indian Food", 'restaurant_id': '41569277'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 11}, {'score': 11}, {'score': 82}, {'score': 11}, {'score': 19}, {'score': 29}], 'name': 'Cafe R', 'restaurant_id': '41574642'}
+{'borough': 'Brooklyn', 'cuisine': 'Chinese', 'grades': [{'score': 86}, {'score': 20}, {'score': 11}, {'score': 10}], 'name': 'D & Y Restaurant', 'restaurant_id': '50000040'}
+{'borough': 'Bronx', 'cuisine': 'Latin (Cuban, Dominican, Puerto Rican, South & Central American)', 'grades': [{'score': 10}, {'score': 82}], 'name': 'La Potencia Restaurant', 'restaurant_id': '50014192'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 11}, {'score': 131}, {'score': 11}, {'score': 25}, {'score': 11}, {'score': 13}], 'name': "Murals On 54/Randolphs'S", 'restaurant_id': '40372466'}
+****************************************************************************************************
+
+````````
+
+## 6). Write Query to show the restaurants that do not prepare any cuisine of american & their grade score > 70. LIMIT-(50)
+
+
+`````````
+****************************************************************************************************
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '50010813'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '50010813'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Afghan Kebob House', 'restaurant_id': '41535706'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Balkh Shish Kabab House', 'restaurant_id': '50007432'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '41559771'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'New Bkhatar Afghan Halal Kabab & Gyro King', 'restaurant_id': '50001906'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '41559771'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '41559771'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Tariq Afghan Kabab', 'restaurant_id': '50010806'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Choopan Kabab Restaurant', 'restaurant_id': '41569155'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Arya Kabob House', 'restaurant_id': '50008452'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Choopan Kabab Restaurant', 'restaurant_id': '41569155'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Arya Kabob House', 'restaurant_id': '50008452'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Tariq Afghan Kabab', 'restaurant_id': '50010806'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Arya Kabob House', 'restaurant_id': '50008452'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Afghan Kebob House', 'restaurant_id': '41535706'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'New Bkhatar Afghan Halal Kabab & Gyro King', 'restaurant_id': '50001906'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Choopan Kabab Restaurant', 'restaurant_id': '41569155'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhtar Kabab', 'restaurant_id': '41661199'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '41559771'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '50010813'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhtar Kabab', 'restaurant_id': '41661199'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Afghan Kebob House', 'restaurant_id': '41535706'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Afghan Kebob House', 'restaurant_id': '41535706'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Balkh Shish Kabab House', 'restaurant_id': '50007432'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Tariq Afghan Kabab', 'restaurant_id': '50010806'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Afghan Kebob House', 'restaurant_id': '41535706'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '50010813'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Balkh Shish Kabab House', 'restaurant_id': '50007432'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Afghan Kebob House', 'restaurant_id': '41535706'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Tariq Afghan Kabab', 'restaurant_id': '50010806'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Balkh Shish Kabab House', 'restaurant_id': '50007432'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Tariq Afghan Kabab', 'restaurant_id': '50010806'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '41559771'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'New Bkhatar Afghan Halal Kabab & Gyro King', 'restaurant_id': '50001906'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '50010813'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Balkh Shish Kabab House', 'restaurant_id': '50007432'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Choopan Kabab Restaurant', 'restaurant_id': '41569155'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'New Bkhatar Afghan Halal Kabab & Gyro King', 'restaurant_id': '50001906'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Arya Kabob House', 'restaurant_id': '50008452'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'New Bkhatar Afghan Halal Kabab & Gyro King', 'restaurant_id': '50001906'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Choopan Kabab Restaurant', 'restaurant_id': '41569155'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Choopan Kabab Restaurant', 'restaurant_id': '41569155'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhtar Kabab', 'restaurant_id': '41661199'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'New Bkhatar Afghan Halal Kabab & Gyro King', 'restaurant_id': '50001906'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhtar Kabab', 'restaurant_id': '41661199'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '41559771'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Arya Kabob House', 'restaurant_id': '50008452'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhtar Kabab', 'restaurant_id': '41661199'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhtar Kabab', 'restaurant_id': '41661199'}
+
+****************************************************************************************************
+
+`````````
+
+##
+
+
