@@ -15,5 +15,35 @@
 .......
 
 
-```````
+````````
+
+## 3) Display the fields restaurant_id, name, borough, and zip code, but exclude the field _id for all the documents in the collection restaurant.
+
+
+
+````````
+****************************************************************************************************
+{'_id': {'RestuarantId': '41552490', 'name': 'Dosa Garden Sri Lanka Restaurant', 'borough': 'Staten Island', 'cuisine': 'Indian'}}
+{'_id': {'RestuarantId': '41439359', 'name': 'Kestane Kebab', 'borough': 'Brooklyn', 'cuisine': 'Turkish'}}
+{'_id': {'RestuarantId': '41719364', 'name': 'Golden Sand Seafood Restaurant', 'borough': 'Manhattan', 'cuisine': 'Chinese'}}
+{'_id': {'RestuarantId': '41638850', 'name': 'Best Lexington Pizza', 'borough': 'Manhattan', 'cuisine': 'Pizza'}}
+{'_id': {'RestuarantId': '50002762', 'name': 'Bread & Butter', 'borough': 'Manhattan', 'cuisine': 'American '}}
+{'_id': {'RestuarantId': '41665255', 'name': "Mchale'S Bar & Grill", 'borough': 'Manhattan', 'cuisine': 'Irish'}}
+{'_id': {'RestuarantId': '50000222', 'name': "Papa John'S", 'borough': 'Queens', 'cuisine': 'Pizza'}}
+{'_id': {'RestuarantId': '41365330', 'name': "New Everybody'S Kitchen", 'borough': 'Staten Island', 'cuisine': 'Chinese'}}
+{'_id': {'RestuarantId': '50016120', 'name': 'Billet And Bellows', 'borough': 'Brooklyn', 'cuisine': 'Not Listed/Not Applicable'}}
+{'_id': {'RestuarantId': '41413717', 'name': "Samantha'S Southern Cuisine", 'borough': 'Brooklyn', 'cuisine': 'American '}}
+{'_id': {'RestuarantId': '41627984', 'name': 'Jouvay Night Club', 'borough': 'Queens', 'cuisine': 'Caribbean'}}
+{'_id': {'RestuarantId': '50017893', 'name': 'Sake Bomb', 'borough': 'Queens', 'cuisine': 'Other'}}
+{'_id': {'RestuarantId': '41602559', 'name': 'Red Chopstick', 'borough': 'Queens', 'cuisine': 'Chinese'}}
+{'_id': {'RestuarantId': '40978782', 'name': 'The Mark Bar', 'borough': 'Brooklyn', 'cuisine': 'American '}}
+{'_id': {'RestuarantId': '41487544', 'name': 'Nanoosh', 'borough': 'Manhattan', 'cuisine': 'Mediterranean'}}
+{'_id': {'RestuarantId': '50005075', 'name': 'Apple Jack Diner', 'borough': 'Manhattan', 'cuisine': 'American '}}
+{'_id': {'RestuarantId': '50010461', 'name': 'Island Salad', 'borough': 'Brooklyn', 'cuisine': 'Salads'}}
+{'_id': {'RestuarantId': '40399256', 'name': 'Singas Famous Pizza', 'borough': 'Queens', 'cuisine': 'Pizza'}}
+{'_id': {'RestuarantId': '50012527', 'name': 'Uglyducking', 'borough': 'Brooklyn', 'cuisine': 'American '}}
+{'_id': {'RestuarantId': '41383227', 'name': 'La Nazionale Soccer Club', 'borough': 'Queens', 'cuisine': 'Italian'}}
+****************************************************************************************************
+
+````````
 
