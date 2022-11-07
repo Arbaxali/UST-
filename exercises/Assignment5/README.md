@@ -47,3 +47,35 @@
 
 ````````
 
+## 4).Find the restaurants who achieved a score more than 90.
+
+````````
+****************************************************************************************************
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 11}, {'score': 131}, {'score': 11}, {'score': 25}, {'score': 11}, {'score': 13}], 'name': "Murals On 54/Randolphs'S", 'restaurant_id': '40372466'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 5}, {'score': 8}, {'score': 12}, {'score': 2}, {'score': 9}, {'score': 92}, {'score': 41}], 'name': 'Gandhi', 'restaurant_id': '40381295'}
+{'borough': 'Manhattan', 'cuisine': 'Pizza/Italian', 'grades': [{'score': 31}, {'score': 98}, {'score': 32}, {'score': 21}, {'score': 11}], 
+'name': 'Bella Napoli', 'restaurant_id': '40393488'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 7}, {'score': 12}, {'score': 21}, {'score': 18}, {'score': 11}, {'score': 98}], 'name': "Baluchi'S Indian Food", 'restaurant_id': '41569277'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 11}, {'score': 131}, {'score': 11}, {'score': 25}, {'score': 11}, {'score': 13}], 'name': "Murals On 54/Randolphs'S", 'restaurant_id': '40372466'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 5}, {'score': 8}, {'score': 12}, {'score': 2}, {'score': 9}, {'score': 92}, {'score': 41}], 'name': 'Gandhi', 'restaurant_id': '40381295'}
+{'borough': 'Manhattan', 'cuisine': 'Pizza/Italian', 'grades': [{'score': 31}, {'score': 98}, {'score': 32}, {'score': 21}, {'score': 11}], 
+'name': 'Bella Napoli', 'restaurant_id': '40393488'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 7}, {'score': 12}, {'score': 21}, {'score': 18}, {'score': 11}, {'score': 98}], 'name': "Baluchi'S Indian Food", 'restaurant_id': '41569277'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 11}, {'score': 131}, {'score': 11}, {'score': 25}, {'score': 11}, {'score': 13}], 'name': "Murals On 54/Randolphs'S", 'restaurant_id': '40372466'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 5}, {'score': 8}, {'score': 12}, {'score': 2}, {'score': 9}, {'score': 92}, {'score': 41}], 'name': 'Gandhi', 'restaurant_id': '40381295'}
+{'borough': 'Manhattan', 'cuisine': 'Pizza/Italian', 'grades': [{'score': 31}, {'score': 98}, {'score': 32}, {'score': 21}, {'score': 11}], 
+'name': 'Bella Napoli', 'restaurant_id': '40393488'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 7}, {'score': 12}, {'score': 21}, {'score': 18}, {'score': 11}, {'score': 98}], 'name': "Baluchi'S Indian Food", 'restaurant_id': '41569277'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 11}, {'score': 131}, {'score': 11}, {'score': 25}, {'score': 11}, {'score': 13}], 'name': "Murals On 54/Randolphs'S", 'restaurant_id': '40372466'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 5}, {'score': 8}, {'score': 12}, {'score': 2}, {'score': 9}, {'score': 92}, {'score': 41}], 'name': 'Gandhi', 'restaurant_id': '40381295'}
+{'borough': 'Manhattan', 'cuisine': 'Pizza/Italian', 'grades': [{'score': 31}, {'score': 98}, {'score': 32}, {'score': 21}, {'score': 11}], 
+'name': 'Bella Napoli', 'restaurant_id': '40393488'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 7}, {'score': 12}, {'score': 21}, {'score': 18}, {'score': 11}, {'score': 98}], 'name': "Baluchi'S Indian Food", 'restaurant_id': '41569277'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 11}, {'score': 131}, {'score': 11}, {'score': 25}, {'score': 11}, {'score': 13}], 'name': "Murals On 54/Randolphs'S", 'restaurant_id': '40372466'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 5}, {'score': 8}, {'score': 12}, {'score': 2}, {'score': 9}, {'score': 92}, {'score': 41}], 'name': 'Gandhi', 'restaurant_id': '40381295'}
+{'borough': 'Manhattan', 'cuisine': 'Pizza/Italian', 'grades': [{'score': 31}, {'score': 98}, {'score': 32}, {'score': 21}, {'score': 11}], 
+'name': 'Bella Napoli', 'restaurant_id': '40393488'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 7}, {'score': 12}, {'score': 21}, {'score': 18}, {'score': 11}, {'score': 98}], 'name': "Baluchi'S Indian Food", 'restaurant_id': '41569277'}
+****************************************************************************************************
+
+````````
