@@ -1,12 +1,14 @@
 1.	Create database – restaurant, create collection – rescollection Insert the documents into collections.
+from pymongo import MongoClient
 import json
+
 
 if __name__ == "__main__":
     client = MongoClient("mongodb://localhost:27017")
     
     db = client['restuarantDB']
     collection = db['rescollection']
-    with open('restaurants-dataset.json') as file:
+    with open(r'C:\Users\arbazalx\OneDrive - Intel Corporation\Desktop\javasc\flames website\restaurants-dataset.json',"r", encoding="utf-8") as file:
         record = file.read()
         record = record.replace('\n','')
         record = record.replace('}{','},{')
@@ -16,16 +18,21 @@ if __name__ == "__main__":
     if isinstance(file_data, list):
         collection.insert_many(file_data)
     else:
-        collection.insert_one(file_data)
+        collection.insert_one(file_data)        
+
+2.  Display all the documents in the collection restaurants.
+    
     cursor = collection.find({})
     for document in cursor:
         print(document)
-        
-2.	Display all the documents in the collection restaurants.
- db.restaurants.find();
- 
+
 3.	Display the fields restaurant_id, name, borough, and zip code, but exclude the field _id for all the documents in the collection restaurant.
- db.restaurants.find({},{"restaurant_id" : 1,"name":1,"borough":1,"cuisine" :1,"_id":0});
+    # field_dis = collection.find({},{"restaurant_id" : 1,"name":1,"borough":1,"cuisine" :1,"_id":0}).limit(30);
+    field_dis = collection.aggregate([
+            {'$group': {'_id':{'RestuarantId':"$restaurant_id",'name':"$name", "borough": "$borough","cuisine" :"$cuisine" },
+                        }},{'$limit': 20}])   
+    for item in field_dis:
+        print(item)
  
 4.	Find the restaurants who achieved a score more than 90.
 db.restaurants.find({grades : { $elemMatch:{"score":{$gt : 90}}}});
