@@ -176,6 +176,301 @@
 
 `````````
 
-##
+## 7 Write a MongoDB query to arrange the name of the cuisine in an ascending order and for that same borough arranged in descending order.
 
+````````
+****************************************************************************************************
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '50010813'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '50010813'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Afghan Kebob House', 'restaurant_id': '41535706'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Balkh Shish Kabab House', 'restaurant_id': '50007432'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '41559771'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'New Bkhatar Afghan Halal Kabab & Gyro King', 'restaurant_id': '50001906'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '41559771'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '41559771'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Tariq Afghan Kabab', 'restaurant_id': '50010806'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Choopan Kabab Restaurant', 'restaurant_id': '41569155'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Arya Kabob House', 'restaurant_id': '50008452'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Choopan Kabab Restaurant', 'restaurant_id': '41569155'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Arya Kabob House', 'restaurant_id': '50008452'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Tariq Afghan Kabab', 'restaurant_id': '50010806'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Arya Kabob House', 'restaurant_id': '50008452'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Afghan Kebob House', 'restaurant_id': '41535706'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'New Bkhatar Afghan Halal Kabab & Gyro King', 'restaurant_id': '50001906'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Choopan Kabab Restaurant', 'restaurant_id': '41569155'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhtar Kabab', 'restaurant_id': '41661199'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '41559771'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '50010813'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhtar Kabab', 'restaurant_id': '41661199'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Afghan Kebob House', 'restaurant_id': '41535706'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Afghan Kebob House', 'restaurant_id': '41535706'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Balkh Shish Kabab House', 'restaurant_id': '50007432'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Tariq Afghan Kabab', 'restaurant_id': '50010806'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Afghan Kebob House', 'restaurant_id': '41535706'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '50010813'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Balkh Shish Kabab House', 'restaurant_id': '50007432'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Afghan Kebob House', 'restaurant_id': '41535706'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Tariq Afghan Kabab', 'restaurant_id': '50010806'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Balkh Shish Kabab House', 'restaurant_id': '50007432'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Tariq Afghan Kabab', 'restaurant_id': '50010806'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '41559771'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'New Bkhatar Afghan Halal Kabab & Gyro King', 'restaurant_id': '50001906'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '50010813'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Balkh Shish Kabab House', 'restaurant_id': '50007432'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Choopan Kabab Restaurant', 'restaurant_id': '41569155'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'New Bkhatar Afghan Halal Kabab & Gyro King', 'restaurant_id': '50001906'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Arya Kabob House', 'restaurant_id': '50008452'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'New Bkhatar Afghan Halal Kabab & Gyro King', 'restaurant_id': '50001906'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Choopan Kabab Restaurant', 'restaurant_id': '41569155'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Choopan Kabab Restaurant', 'restaurant_id': '41569155'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhtar Kabab', 'restaurant_id': '41661199'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'New Bkhatar Afghan Halal Kabab & Gyro King', 'restaurant_id': '50001906'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhtar Kabab', 'restaurant_id': '41661199'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhter Afghan Halal Kabab', 'restaurant_id': '41559771'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Arya Kabob House', 'restaurant_id': '50008452'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhtar Kabab', 'restaurant_id': '41661199'}
+{'borough': 'Queens', 'cuisine': 'Afghan', 'name': 'Bakhtar Kabab', 'restaurant_id': '41661199'}
+****************************************************************************************************
+````````
+
+## 8).Write a MongoDB query to arrange the name of the cuisine in descending order.
+
+
+````````
+****************************************************************************************************
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Pho Bang Restaurant', 'restaurant_id': '41145163'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Home Vietnamese Sandwich And Bubble Tea', 'restaurant_id': '41461382'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Boi Noodle Restaurant', 'restaurant_id': '41473278'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Mekong Brooklyn', 'restaurant_id': '41648717'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Mekong Thai And Vietnamese Restaurant', 'restaurant_id': '41022628'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'A+ Lollipop', 'restaurant_id': '41611605'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Banh Mi Saigon Bakery', 'restaurant_id': '41494286'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Pink Lotus Gourmet', 'restaurant_id': '41486961'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Pho Vietnamese Restaurant', 'restaurant_id': '41379217'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Thai Son', 'restaurant_id': '41221266'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Pho Bang Restaurant', 'restaurant_id': '41338955'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Nha Trang Restaurant', 'restaurant_id': '40989220'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Bia Bar & Grill', 'restaurant_id': '41655832'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'A La Saigon', 'restaurant_id': '41613672'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Sao Mai Vietnamese Cuisine', 'restaurant_id': '41629235'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Nam Nam', 'restaurant_id': '41528836'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'V-Nam Cafe', 'restaurant_id': '41520658'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Co Ba Restaurant', 'restaurant_id': '41483297'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Henry', 'restaurant_id': '41604359'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Pho 32 & Shabu', 'restaurant_id': '41026002'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Baoguette Pho Sure', 'restaurant_id': '41414673'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'O-Mai', 'restaurant_id': '40903063'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'New Gia Lam Vietnamese Food', 'restaurant_id': '41457893'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Lan Cafe', 'restaurant_id': '41184550'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'New Tu Do Restaurant', 'restaurant_id': '41374711'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Nha-Trang Centre Vietnam Restaurant', 'restaurant_id': '40751226'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Pho Bang Restaurant', 'restaurant_id': '40700664'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Thanh Da', 'restaurant_id': '41353290'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Ba Xuyen', 'restaurant_id': '40959591'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Little Thanh Da', 'restaurant_id': '41656294'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Cong Ly Restaurant', 'restaurant_id': '41626364'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': "Luu'S  Baguette", 'restaurant_id': '41627431'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Viet Cafe', 'restaurant_id': '41063946'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Paris Sandwich', 'restaurant_id': '41674140'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Saigon Shack', 'restaurant_id': '41538633'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Saigon Market', 'restaurant_id': '41539844'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Pho Bac Vietnamese Seafood Cuisine', 'restaurant_id': '40578058'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': "Cha Pa'S Vietnamese Eatery", 'restaurant_id': '41551369'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Saigon Vietnamese Sandwich', 'restaurant_id': '41254832'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Saigon 48/ Aoki', 'restaurant_id': '41484659'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Thai Son', 'restaurant_id': '40559606'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Cyclo', 'restaurant_id': '41677087'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'New Mekong Restaurant', 'restaurant_id': '41202673'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'An Choi', 'restaurant_id': '41386399'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Pho Viet', 'restaurant_id': '41695857'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Saiguette', 'restaurant_id': '41677130'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Banh Mi Veitnamese Sandwiches', 'restaurant_id': '41459143'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Pho Grand', 'restaurant_id': '41375457'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Pho Viet-Nam Restaurant', 'restaurant_id': '41158964'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'New Bo Ky Restaurant', 'restaurant_id': '41005330'}
+****************************************************************************************************
+
+````````
+
+
+## 9).Show the restaurant Id, name, borough and cuisines for those restaurants which prepared dish except 'American' and 'Chinese' or restaurant's name begins with letter 'Bil'.
+
+
+````````
+****************************************************************************************************
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Pho Bang Restaurant', 'restaurant_id': '41145163'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Home Vietnamese Sandwich And Bubble Tea', 'restaurant_id': '41461382'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Boi Noodle Restaurant', 'restaurant_id': '41473278'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Mekong Brooklyn', 'restaurant_id': '41648717'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Mekong Thai And Vietnamese Restaurant', 'restaurant_id': '41022628'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'A+ Lollipop', 'restaurant_id': '41611605'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Banh Mi Saigon Bakery', 'restaurant_id': '41494286'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Pink Lotus Gourmet', 'restaurant_id': '41486961'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Pho Vietnamese Restaurant', 'restaurant_id': '41379217'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Thai Son', 'restaurant_id': '41221266'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Pho Bang Restaurant', 'restaurant_id': '41338955'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Nha Trang Restaurant', 'restaurant_id': '40989220'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Bia Bar & Grill', 'restaurant_id': '41655832'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'A La Saigon', 'restaurant_id': '41613672'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Sao Mai Vietnamese Cuisine', 'restaurant_id': '41629235'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Nam Nam', 'restaurant_id': '41528836'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'V-Nam Cafe', 'restaurant_id': '41520658'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Co Ba Restaurant', 'restaurant_id': '41483297'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Henry', 'restaurant_id': '41604359'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Pho 32 & Shabu', 'restaurant_id': '41026002'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Baoguette Pho Sure', 'restaurant_id': '41414673'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'O-Mai', 'restaurant_id': '40903063'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'New Gia Lam Vietnamese Food', 'restaurant_id': '41457893'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Lan Cafe', 'restaurant_id': '41184550'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'New Tu Do Restaurant', 'restaurant_id': '41374711'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Nha-Trang Centre Vietnam Restaurant', 'restaurant_id': '40751226'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Pho Bang Restaurant', 'restaurant_id': '40700664'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Thanh Da', 'restaurant_id': '41353290'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Ba Xuyen', 'restaurant_id': '40959591'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Little Thanh Da', 'restaurant_id': '41656294'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Cong Ly Restaurant', 'restaurant_id': '41626364'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': "Luu'S  Baguette", 'restaurant_id': '41627431'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Viet Cafe', 'restaurant_id': '41063946'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Paris Sandwich', 'restaurant_id': '41674140'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Saigon Shack', 'restaurant_id': '41538633'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Saigon Market', 'restaurant_id': '41539844'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Pho Bac Vietnamese Seafood Cuisine', 'restaurant_id': '40578058'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': "Cha Pa'S Vietnamese Eatery", 'restaurant_id': '41551369'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Saigon Vietnamese Sandwich', 'restaurant_id': '41254832'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Saigon 48/ Aoki', 'restaurant_id': '41484659'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Thai Son', 'restaurant_id': '40559606'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Cyclo', 'restaurant_id': '41677087'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'New Mekong Restaurant', 'restaurant_id': '41202673'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'An Choi', 'restaurant_id': '41386399'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Pho Viet', 'restaurant_id': '41695857'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Saiguette', 'restaurant_id': '41677130'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Banh Mi Veitnamese Sandwiches', 'restaurant_id': '41459143'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Pho Grand', 'restaurant_id': '41375457'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'Pho Viet-Nam Restaurant', 'restaurant_id': '41158964'}
+{'cuisine': 'Vietnamese/Cambodian/Malaysia', 'name': 'New Bo Ky Restaurant', 'restaurant_id': '41005330'}
+****************************************************************************************************
+****************************************************************************************************
+{'borough': 'Queens', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018199'}
+{'borough': 'Manhattan', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018085'}
+{'borough': 'Brooklyn', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018170'}
+{'borough': 'Manhattan', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018219'}
+{'borough': 'Manhattan', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50017887'}
+{'borough': 'Manhattan', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018243'}
+{'borough': 'Manhattan', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018083'}
+{'borough': 'Manhattan', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018271'}
+{'borough': 'Manhattan', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018012'}
+{'borough': 'Manhattan', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018088'}
+{'borough': 'Brooklyn', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50017967'}
+{'borough': 'Manhattan', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018117'}
+{'borough': 'Staten Island', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018227'}
+{'borough': 'Brooklyn', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018062'}
+{'borough': 'Queens', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018292'}
+{'borough': 'Brooklyn', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018186'}
+{'borough': 'Queens', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018213'}
+{'borough': 'Bronx', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50017982'}
+{'borough': 'Manhattan', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018293'}
+{'borough': 'Brooklyn', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018197'}
+{'borough': 'Manhattan', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018269'}
+{'borough': 'Brooklyn', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018050'}
+{'borough': 'Brooklyn', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018270'}
+{'borough': 'Manhattan', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018100'}
+{'borough': 'Queens', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018166'}
+{'borough': 'Brooklyn', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50017938'}
+{'borough': 'Staten Island', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018165'}
+{'borough': 'Brooklyn', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018007'}
+{'borough': 'Brooklyn', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018061'}
+{'borough': 'Staten Island', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018297'}
+{'borough': 'Queens', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50017969'}
+{'borough': 'Queens', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018095'}
+{'borough': 'Bronx', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50017935'}
+{'borough': 'Manhattan', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018302'}
+{'borough': 'Manhattan', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50017912'}
+{'borough': 'Manhattan', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018216'}
+{'borough': 'Brooklyn', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018042'}
+{'borough': 'Manhattan', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018261'}
+{'borough': 'Manhattan', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018128'}
+{'borough': 'Manhattan', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018160'}
+{'borough': 'Brooklyn', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50017925'}
+{'borough': 'Bronx', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018312'}
+{'borough': 'Queens', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018141'}
+{'borough': 'Manhattan', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018236'}
+{'borough': 'Queens', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018322'}
+{'borough': 'Brooklyn', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018315'}
+{'borough': 'Brooklyn', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018278'}
+{'borough': 'Manhattan', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018259'}
+{'borough': 'Queens', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50018231'}
+{'borough': 'Brooklyn', 'cuisine': 'Other', 'name': '', 'restaurant_id': '50017910'}
+****************************************************************************************************
+
+
+````````
+
+## 10).Show the restaurant Id, name, borough and cuisines and score for restaurant's name begins with letter 'Bil'.
+
+`````````
+****************************************************************************************************
+{'borough': 'Bronx', 'cuisine': 'American ', 'grades': [{'score': 30}, {'score': 29}, {'score': 33}, {'score': 10}, {'score': 51}], 'name': 
+"Billy'S Sport Bar Restaurant & Lounge", 'restaurant_id': '40624470'}
+{'borough': 'Queens', 'cuisine': 'American ', 'grades': [{'score': 12}, {'score': 12}, {'score': 16}, {'score': 15}, {'score': 19}, {'score': 11}], 'name': 'Billiard Company', 'restaurant_id': '40717559'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 12}, {'score': 2}, {'score': 13}, {'score': 10}, {'score': 11}, {'score': 14}], 'name': 'Billymarks West', 'restaurant_id': '40785565'}
+{'borough': 'Queens', 'cuisine': 'American ', 'grades': [{'score': 7}, {'score': 13}, {'score': 12}, {'score': 9}, {'score': 13}], 'name': "Bill'S Restaurant", 'restaurant_id': '40868248'}
+{'borough': 'Brooklyn', 'cuisine': 'American ', 'grades': [{'score': 7}, {'score': 12}, {'score': 9}], 'name': 'Billiard Club', 'restaurant_id': '41013850'}
+{'borough': 'Brooklyn', 'cuisine': 'American ', 'grades': [{'score': 2}, {'score': 10}, {'score': 25}, {'score': 12}, {'score': 12}], 'name': "Bill'S Bar", 'restaurant_id': '41089835'}
+{'borough': 'Queens', 'cuisine': 'American ', 'grades': [{'score': 4}, {'score': 2}, {'score': 8}, {'score': 9}], 'name': 'Billiard Room', 'restaurant_id': '41150814'}
+{'borough': 'Manhattan', 'cuisine': 'Soul Food', 'grades': [{'score': 12}, {'score': 17}, {'score': 11}], 'name': "Billie'S Black Bar Lounge And Restaurant", 'restaurant_id': '41188374'}
+{'borough': 'Manhattan', 'cuisine': 'Bakery', 'grades': [{'score': 9}, {'score': 12}, {'score': 12}, {'score': 10}], 'name': "Billy'S Bakery", 'restaurant_id': '41421237'}
+{'borough': 'Manhattan', 'cuisine': 'Hamburgers', 'grades': [{'score': 4}, {'score': 11}, {'score': 12}, {'score': 9}], 'name': "Bill'S Bar 
+& Burgers", 'restaurant_id': '41444224'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 12}, {'score': 12}, {'score': 12}, {'score': 10}], 'name': 'Billiards', 'restaurant_id': '41447357'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 10}, {'score': 3}, {'score': 9}, {'score': 7}], 'name': "Bill'S Bar & 
+Burger Rockefeller Center", 'restaurant_id': '41509909'}
+{'borough': 'Manhattan', 'cuisine': 'Bakery', 'grades': [{'score': 9}, {'score': 13}, {'score': 8}, {'score': 7}, {'score': 31}], 'name': "Billy'S Bakery", 'restaurant_id': '41570001'}
+{'borough': 'Manhattan', 'cuisine': 'Bakery', 'grades': [{'score': 8}, {'score': 2}, {'score': 8}], 'name': "Billy'S Bakery", 'restaurant_id': '41658998'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 8}, {'score': 12}, {'score': 10}], 'name': "Bill'S", 'restaurant_id': 
+'41693376'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 12}, {'score': 12}], 'name': "Bill'S Bar And Burger Downtown", 'restaurant_id': '50000726'}
+{'borough': 'Brooklyn', 'cuisine': 'Pizza', 'grades': [{'score': 11}], 'name': "Billy'S Pizza Pasta", 'restaurant_id': '50010952'}
+{'borough': 'Brooklyn', 'cuisine': 'Not Listed/Not Applicable', 'grades': [{'score': 6}], 'name': 'Billet And Bellows', 'restaurant_id': '50016120'}
+{'borough': 'Bronx', 'cuisine': 'American ', 'grades': [{'score': 30}, {'score': 29}, {'score': 33}, {'score': 10}, {'score': 51}], 'name': 
+"Billy'S Sport Bar Restaurant & Lounge", 'restaurant_id': '40624470'}
+{'borough': 'Queens', 'cuisine': 'American ', 'grades': [{'score': 12}, {'score': 12}, {'score': 16}, {'score': 15}, {'score': 19}, {'score': 11}], 'name': 'Billiard Company', 'restaurant_id': '40717559'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 12}, {'score': 2}, {'score': 13}, {'score': 10}, {'score': 11}, {'score': 14}], 'name': 'Billymarks West', 'restaurant_id': '40785565'}
+{'borough': 'Queens', 'cuisine': 'American ', 'grades': [{'score': 7}, {'score': 13}, {'score': 12}, {'score': 9}, {'score': 13}], 'name': "Bill'S Restaurant", 'restaurant_id': '40868248'}
+{'borough': 'Brooklyn', 'cuisine': 'American ', 'grades': [{'score': 7}, {'score': 12}, {'score': 9}], 'name': 'Billiard Club', 'restaurant_id': '41013850'}
+{'borough': 'Brooklyn', 'cuisine': 'American ', 'grades': [{'score': 2}, {'score': 10}, {'score': 25}, {'score': 12}, {'score': 12}], 'name': "Bill'S Bar", 'restaurant_id': '41089835'}
+{'borough': 'Queens', 'cuisine': 'American ', 'grades': [{'score': 4}, {'score': 2}, {'score': 8}, {'score': 9}], 'name': 'Billiard Room', 'restaurant_id': '41150814'}
+{'borough': 'Manhattan', 'cuisine': 'Soul Food', 'grades': [{'score': 12}, {'score': 17}, {'score': 11}], 'name': "Billie'S Black Bar Lounge And Restaurant", 'restaurant_id': '41188374'}
+{'borough': 'Manhattan', 'cuisine': 'Bakery', 'grades': [{'score': 9}, {'score': 12}, {'score': 12}, {'score': 10}], 'name': "Billy'S Bakery", 'restaurant_id': '41421237'}
+{'borough': 'Manhattan', 'cuisine': 'Hamburgers', 'grades': [{'score': 4}, {'score': 11}, {'score': 12}, {'score': 9}], 'name': "Bill'S Bar 
+& Burgers", 'restaurant_id': '41444224'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 12}, {'score': 12}, {'score': 12}, {'score': 10}], 'name': 'Billiards', 'restaurant_id': '41447357'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 10}, {'score': 3}, {'score': 9}, {'score': 7}], 'name': "Bill'S Bar & 
+Burger Rockefeller Center", 'restaurant_id': '41509909'}
+{'borough': 'Manhattan', 'cuisine': 'Bakery', 'grades': [{'score': 9}, {'score': 13}, {'score': 8}, {'score': 7}, {'score': 31}], 'name': "Billy'S Bakery", 'restaurant_id': '41570001'}
+{'borough': 'Manhattan', 'cuisine': 'Bakery', 'grades': [{'score': 8}, {'score': 2}, {'score': 8}], 'name': "Billy'S Bakery", 'restaurant_id': '41658998'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 8}, {'score': 12}, {'score': 10}], 'name': "Bill'S", 'restaurant_id': 
+'41693376'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 12}, {'score': 12}], 'name': "Bill'S Bar And Burger Downtown", 'restaurant_id': '50000726'}
+{'borough': 'Brooklyn', 'cuisine': 'Pizza', 'grades': [{'score': 11}], 'name': "Billy'S Pizza Pasta", 'restaurant_id': '50010952'}
+{'borough': 'Brooklyn', 'cuisine': 'Not Listed/Not Applicable', 'grades': [{'score': 6}], 'name': 'Billet And Bellows', 'restaurant_id': '50016120'}
+{'borough': 'Bronx', 'cuisine': 'American ', 'grades': [{'score': 30}, {'score': 29}, {'score': 33}, {'score': 10}, {'score': 51}], 'name': 
+"Billy'S Sport Bar Restaurant & Lounge", 'restaurant_id': '40624470'}
+{'borough': 'Queens', 'cuisine': 'American ', 'grades': [{'score': 12}, {'score': 12}, {'score': 16}, {'score': 15}, {'score': 19}, {'score': 11}], 'name': 'Billiard Company', 'restaurant_id': '40717559'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 12}, {'score': 2}, {'score': 13}, {'score': 10}, {'score': 11}, {'score': 14}], 'name': 'Billymarks West', 'restaurant_id': '40785565'}
+{'borough': 'Queens', 'cuisine': 'American ', 'grades': [{'score': 7}, {'score': 13}, {'score': 12}, {'score': 9}, {'score': 13}], 'name': "Bill'S Restaurant", 'restaurant_id': '40868248'}
+{'borough': 'Brooklyn', 'cuisine': 'American ', 'grades': [{'score': 7}, {'score': 12}, {'score': 9}], 'name': 'Billiard Club', 'restaurant_id': '41013850'}
+{'borough': 'Brooklyn', 'cuisine': 'American ', 'grades': [{'score': 2}, {'score': 10}, {'score': 25}, {'score': 12}, {'score': 12}], 'name': "Bill'S Bar", 'restaurant_id': '41089835'}
+{'borough': 'Queens', 'cuisine': 'American ', 'grades': [{'score': 4}, {'score': 2}, {'score': 8}, {'score': 9}], 'name': 'Billiard Room', 'restaurant_id': '41150814'}
+{'borough': 'Manhattan', 'cuisine': 'Soul Food', 'grades': [{'score': 12}, {'score': 17}, {'score': 11}], 'name': "Billie'S Black Bar Lounge And Restaurant", 'restaurant_id': '41188374'}
+{'borough': 'Manhattan', 'cuisine': 'Bakery', 'grades': [{'score': 9}, {'score': 12}, {'score': 12}, {'score': 10}], 'name': "Billy'S Bakery", 'restaurant_id': '41421237'}
+{'borough': 'Manhattan', 'cuisine': 'Hamburgers', 'grades': [{'score': 4}, {'score': 11}, {'score': 12}, {'score': 9}], 'name': "Bill'S Bar 
+& Burgers", 'restaurant_id': '41444224'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 12}, {'score': 12}, {'score': 12}, {'score': 10}], 'name': 'Billiards', 'restaurant_id': '41447357'}
+{'borough': 'Manhattan', 'cuisine': 'American ', 'grades': [{'score': 10}, {'score': 3}, {'score': 9}, {'score': 7}], 'name': "Bill'S Bar & 
+Burger Rockefeller Center", 'restaurant_id': '41509909'}
+{'borough': 'Manhattan', 'cuisine': 'Bakery', 'grades': [{'score': 9}, {'score': 13}, {'score': 8}, {'score': 7}, {'score': 31}], 'name': "Billy'S Bakery", 'restaurant_id': '41570001'}
+{'borough': 'Manhattan', 'cuisine': 'Bakery', 'grades': [{'score': 8}, {'score': 2}, {'score': 8}], 'name': "Billy'S Bakery", 'restaurant_id': '41658998'}
+****************************************************************************************************
+
+`````````
 
