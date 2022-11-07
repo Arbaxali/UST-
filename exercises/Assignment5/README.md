@@ -1,4 +1,4 @@
-## 2  display the fileds
+## 2) display the fileds
 
 ````````
 {'_id': ObjectId('636354ec47af48663a29657f'), 'address': {'building': '1267', 'coord': [-73.9206272, 40.837419], 'street': 'Jerome Avenue', 
@@ -14,4 +14,6 @@
 .......
 .......
 
+
 ```````
+
