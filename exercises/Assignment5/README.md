@@ -473,4 +473,118 @@ Burger Rockefeller Center", 'restaurant_id': '41509909'}
 ****************************************************************************************************
 
 `````````
+## 11). 
 
+`````````
+****************************************************************************************************
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 7}, {'score': 5}, {'score': 11}, {'score': 2}], 'name': 'Mughlai Restaurant', 'restaurant_id': '40370243'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 10}, {'score': 24}, {'score': 11}, {'score': 9}, {'score': 13}, {'score': 28}], 'name': 'Agra Restaurant', 'restaurant_id': '40375376'}
+{'borough': 'Queens', 'cuisine': 'Indian', 'grades': [{'score': 4}, {'score': 8}, {'score': 12}, {'score': 13}], 'name': 'Annam Braham Restaurant', 'restaurant_id': '40380520'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 5}, {'score': 8}, {'score': 12}, {'score': 2}, {'score': 9}, {'score': 92}, {'score': 41}], 'name': 'Gandhi', 'restaurant_id': '40381295'}
+{'borough': 'Brooklyn', 'cuisine': 'Indian', 'grades': [{'score': 15}, {'score': 9}, {'score': 16}, {'score': 13}, {'score': 6}, {'score': 12}], 'name': 'India Passage Restaurant', 'restaurant_id': '40384479'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 12}, {'score': 9}, {'score': 13}, {'score': 12}], 'name': 'Haveli', 'restaurant_id': '40390209'}
+{'borough': 'Staten Island', 'cuisine': 'Indian', 'grades': [{'score': 4}, {'score': 10}, {'score': 13}, {'score': 12}], 'name': 'Taste Of India Ii Restaurant', 'restaurant_id': '40390536'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 9}, {'score': 10}, {'score': 5}, {'score': 13}, {'score': 11}, {'score': 
+15}], 'name': 'Bombay Masala', 'restaurant_id': '40394066'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 11}, {'score': 6}, {'score': 11}, {'score': 21}, {'score': 15}], 'name': 
+'Indigo Indian Cuisine', 'restaurant_id': '40395748'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 12}, {'score': 15}, {'score': 12}, {'score': 19}, {'score': 26}, {'score': 13}, {'score': 37}], 'name': 'Curry In A Hurry', 'restaurant_id': '40398434'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 15}, {'score': 13}, {'score': 13}, {'score': 5}, {'score': 11}, {'score': 8}], 'name': 'Bangal Curry', 'restaurant_id': '40401972'}
+{'borough': 'Queens', 'cuisine': 'Indian', 'grades': [{'score': 27}, {'score': 5}, {'score': 2}], 'name': 'Air India Lounge', 'restaurant_id': '40403419'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 8}, {'score': 0}, {'score': 3}, {'score': 4}, {'score': 18}], 'name': 'Vatan', 'restaurant_id': '40513757'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 9}, {'score': 13}, {'score': 7}, {'score': 2}, {'score': 15}], 'name': 'Madras Mahal', 'restaurant_id': '40519978'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 2}, {'score': 0}, {'score': 4}, {'score': 4}], 'name': 'Diwan-E-Khaas', 'restaurant_id': '40527369'}
+{'borough': 'Queens', 'cuisine': 'Indian', 'grades': [{'score': 5}, {'score': 3}, {'score': 7}], 'name': 'Khyber Restaurant', 'restaurant_id': '40530409'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 10}, {'score': 12}, {'score': 12}, {'score': 12}], 'name': 'Ajanta India', 'restaurant_id': '40534837'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 12}, {'score': 20}, {'score': 7}, {'score': 4}, {'score': 12}], 'name': 'Raj Mahal Indian Restaurant', 'restaurant_id': '40534870'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 13}, {'score': 6}, {'score': 9}, {'score': 11}], 'name': 'Pongal Indian Cuisine', 'restaurant_id': '40544107'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 12}, {'score': 13}, {'score': 12}, {'score': 13}], 'name': 'Kismat Indian Cuisine', 'restaurant_id': '40557912'}
+{'borough': 'Queens', 'cuisine': 'Indian', 'grades': [{'score': 24}, {'score': 12}, {'score': 11}, {'score': 13}, {'score': 49}, {'score': 16}, {'score': 5}], 'name': 'Santoor Indian Restaurant', 'restaurant_id': '40571663'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 2}, {'score': 3}, {'score': 10}, {'score': 4}], 'name': 'Diwan-E- Khaas', 'restaurant_id': '40598366'}
+{'borough': 'Queens', 'cuisine': 'Indian', 'grades': [{'score': 11}, {'score': 8}, {'score': 9}, {'score': 10}], 'name': 'Aladdin', 'restaurant_id': '40601254'}
+{'borough': 'Queens', 'cuisine': 'Indian', 'grades': [{'score': 12}, {'score': 7}, {'score': 7}, {'score': 11}], 'name': 'Mehak', 'restaurant_id': '40615240'}
+{'borough': 'Queens', 'cuisine': 'Indian', 'grades': [{'score': 16}, {'score': 17}, {'score': 19}, {'score': 0}, {'score': 22}, {'score': 23}], 'name': 'Jackson Diner Indian Cuisine', 'restaurant_id': '40647953'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 5}, {'score': 11}, {'score': 10}, {'score': 17}], 'name': 'Ayurveda Cafe', 'restaurant_id': '40666541'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 9}, {'score': 12}, {'score': 12}, {'score': 9}, {'score': 27}, {'score': 
+13}, {'score': 25}], 'name': 'Minar Indian Restaurant', 'restaurant_id': '40672926'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 9}, {'score': 9}, {'score': 12}, {'score': 12}, {'score': 14}, {'score': 
+10}], 'name': 'Ghandi Cafe', 'restaurant_id': '40703670'}
+{'borough': 'Queens', 'cuisine': 'Indian', 'grades': [{'score': 3}, {'score': 11}, {'score': 19}, {'score': 9}, {'score': 9}, {'score': 11}], 'name': 'Dosa Hutt', 'restaurant_id': '40718547'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 13}, {'score': 36}, {'score': 12}, {'score': 13}], 'name': 'Sapphire Indian Cuisine', 'restaurant_id': '40722258'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 12}, {'score': 8}, {'score': 11}, {'score': 12}, {'score': 12}], 'name': 
+'Utsav Festive India Restaurant', 'restaurant_id': '40727750'}
+{'borough': 'Queens', 'cuisine': 'Indian', 'grades': [{'score': 10}, {'score': 12}, {'score': 9}, {'score': 13}, {'score': 30}], 'name': 'Maurya Restaurant', 'restaurant_id': '40754126'}
+{'borough': 'Brooklyn', 'cuisine': 'Indian', 'grades': [{'score': 5}, {'score': 11}, {'score': 7}, {'score': 8}, {'score': 10}], 'name': 'Taj Mahal Indian Restaurant', 'restaurant_id': '40756209'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 5}, {'score': 7}, {'score': 9}, {'score': 2}], 'name': 'Taj Cafe', 'restaurant_id': '40793198'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 9}, {'score': 12}, {'score': 11}, {'score': 10}, {'score': 10}, {'score': 16}], 'name': 'Cafe Spice', 'restaurant_id': '40793607'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 7}, {'score': 7}, {'score': 8}, {'score': 12}], 'name': 'Hampton Chutney 
+Company', 'restaurant_id': '40802900'}
+{'borough': 'Queens', 'cuisine': 'Indian', 'grades': [{'score': 22}, {'score': 10}, {'score': 7}, {'score': 12}, {'score': 10}, {'score': 13}], 'name': 'Al-Mehran Restaurant', 'restaurant_id': '40810032'}
+{'borough': 'Queens', 'cuisine': 'Indian', 'grades': [{'score': 12}, {'score': 10}, {'score': 15}, {'score': 7}, {'score': 13}, {'score': 19}], 'name': 'Indian Taj', 'restaurant_id': '40827157'}
+{'borough': 'Queens', 'cuisine': 'Indian', 'grades': [{'score': 5}, {'score': 10}, {'score': 10}, {'score': 13}, {'score': 9}], 'name': 'Gandhi Indian Cuisine', 'restaurant_id': '40827726'}
+{'borough': 'Queens', 'cuisine': 'Indian', 'grades': [{'score': 13}, {'score': 12}, {'score': 5}, {'score': 17}, {'score': 23}], 'name': 'Devasthanam Canteen', 'restaurant_id': '40835821'}
+{'borough': 'Queens', 'cuisine': 'Indian', 'grades': [{'score': 18}, {'score': 13}, {'score': 5}, {'score': 7}, {'score': 33}, {'score': 12}, {'score': 13}], 'name': 'Maharaja Quality Sweets', 'restaurant_id': '40836314'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 7}, {'score': 9}, {'score': 12}, {'score': 60}, {'score': 9}], 'name': 'Minar Indian Restaurant', 'restaurant_id': '40871006'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 8}, {'score': 9}, {'score': 18}, {'score': 5}, {'score': 10}, {'score': 18}], 'name': 'Amma', 'restaurant_id': '40885805'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 20}, {'score': 7}, {'score': 9}], 'name': 'The Kati Roll Company', 'restaurant_id': '40901527'}
+{'borough': 'Brooklyn', 'cuisine': 'Indian', 'grades': [{'score': 11}, {'score': 12}, {'score': 7}, {'score': 22}, {'score': 45}, {'score': 
+17}], 'name': 'Joy Indian Restaurant', 'restaurant_id': '40928416'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 12}, {'score': 25}, {'score': 22}, {'score': 14}, {'score': 3}, {'score': 11}], 'name': "Baluchi'S", 'restaurant_id': '40936006'}
+{'borough': 'Brooklyn', 'cuisine': 'Indian', 'grades': [{'score': 11}, {'score': 11}, {'score': 27}, {'score': 9}, {'score': 12}, {'score': 
+22}], 'name': 'Britain Indian Restaurant', 'restaurant_id': '40944839'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 10}, {'score': 16}, {'score': 8}, {'score': 2}, {'score': 5}, {'score': 11}, {'score': 13}], 'name': 'Joy Curry & Tandoor', 'restaurant_id': '40946298'}
+{'borough': 'Queens', 'cuisine': 'Indian', 'grades': [{'score': 10}, {'score': 12}, {'score': 12}, {'score': 9}, {'score': 2}, {'score': 11}], 'name': 'World Fair Marina Restaurant & Banquet', 'restaurant_id': '40947943'}
+{'borough': 'Manhattan', 'cuisine': 'Indian', 'grades': [{'score': 14}, {'score': 18}, {'score': 26}, {'score': 2}, {'score': 19}, {'score': 10}], 'name': "Baluchi'S", 'restaurant_id': '40978503'}
+****************************************************************************************************
+
+`````````
+## 12). Write a MongoDB query to find the restaurant Id, name, borough, cuisines, and score for those restaurants which contain 'bi' as last three letters for its name.
+`````````
+****************************************************************************************************
+****************************************************************************************************
+{'borough': 'Queens', 'cuisine': 'Chinese', 'grades': [{'score': 10}, {'score': 12}, {'score': 10}, {'score': 12}], 'name': 'Mr Wasabi', 'restaurant_id': '40997900'}
+{'borough': 'Queens', 'cuisine': 'Japanese', 'grades': [{'score': 7}, {'score': 13}, {'score': 9}], 'name': 'Gowasabi', 'restaurant_id': '41431748'}
+{'borough': 'Brooklyn', 'cuisine': 'Japanese', 'grades': [{'score': 13}, {'score': 18}, {'score': 2}, {'score': 31}], 'name': 'Wasabi', 'restaurant_id': '50002381'}
+{'borough': 'Brooklyn', 'cuisine': 'Korean', 'grades': [{'score': 11}, {'score': 11}], 'name': 'Little Dokebi', 'restaurant_id': '50003236'}{'borough': 'Manhattan', 'cuisine': 'Japanese', 'grades': [{'score': 9}], 'name': 'Hanabi', 'restaurant_id': '50010310'}
+{'borough': 'Manhattan', 'cuisine': 'Café/Coffee/Tea', 'grades': [{'score': 56}], 'name': 'Matcha Cafe Wabi', 'restaurant_id': '50016721'}  
+{'borough': 'Manhattan', 'cuisine': 'Other', 'grades': [], 'name': 'Kuro-Obi', 'restaurant_id': '50018850'}
+{'borough': 'Queens', 'cuisine': 'Chinese', 'grades': [{'score': 10}, {'score': 12}, {'score': 10}, {'score': 12}], 'name': 'Mr Wasabi', 'restaurant_id': '40997900'}
+{'borough': 'Queens', 'cuisine': 'Japanese', 'grades': [{'score': 7}, {'score': 13}, {'score': 9}], 'name': 'Gowasabi', 'restaurant_id': '41431748'}
+{'borough': 'Brooklyn', 'cuisine': 'Japanese', 'grades': [{'score': 13}, {'score': 18}, {'score': 2}, {'score': 31}], 'name': 'Wasabi', 'restaurant_id': '50002381'}
+{'borough': 'Brooklyn', 'cuisine': 'Korean', 'grades': [{'score': 11}, {'score': 11}], 'name': 'Little Dokebi', 'restaurant_id': '50003236'}{'borough': 'Manhattan', 'cuisine': 'Japanese', 'grades': [{'score': 9}], 'name': 'Hanabi', 'restaurant_id': '50010310'}
+{'borough': 'Manhattan', 'cuisine': 'Café/Coffee/Tea', 'grades': [{'score': 56}], 'name': 'Matcha Cafe Wabi', 'restaurant_id': '50016721'}  
+{'borough': 'Manhattan', 'cuisine': 'Other', 'grades': [], 'name': 'Kuro-Obi', 'restaurant_id': '50018850'}
+{'borough': 'Queens', 'cuisine': 'Chinese', 'grades': [{'score': 10}, {'score': 12}, {'score': 10}, {'score': 12}], 'name': 'Mr Wasabi', 'restaurant_id': '40997900'}
+{'borough': 'Queens', 'cuisine': 'Japanese', 'grades': [{'score': 7}, {'score': 13}, {'score': 9}], 'name': 'Gowasabi', 'restaurant_id': '41431748'}
+{'borough': 'Brooklyn', 'cuisine': 'Japanese', 'grades': [{'score': 13}, {'score': 18}, {'score': 2}, {'score': 31}], 'name': 'Wasabi', 'restaurant_id': '50002381'}
+{'borough': 'Brooklyn', 'cuisine': 'Korean', 'grades': [{'score': 11}, {'score': 11}], 'name': 'Little Dokebi', 'restaurant_id': '50003236'}{'borough': 'Manhattan', 'cuisine': 'Japanese', 'grades': [{'score': 9}], 'name': 'Hanabi', 'restaurant_id': '50010310'}
+{'borough': 'Manhattan', 'cuisine': 'Café/Coffee/Tea', 'grades': [{'score': 56}], 'name': 'Matcha Cafe Wabi', 'restaurant_id': '50016721'}  
+{'borough': 'Manhattan', 'cuisine': 'Other', 'grades': [], 'name': 'Kuro-Obi', 'restaurant_id': '50018850'}
+{'borough': 'Queens', 'cuisine': 'Chinese', 'grades': [{'score': 10}, {'score': 12}, {'score': 10}, {'score': 12}], 'name': 'Mr Wasabi', 'restaurant_id': '40997900'}
+{'borough': 'Queens', 'cuisine': 'Japanese', 'grades': [{'score': 7}, {'score': 13}, {'score': 9}], 'name': 'Gowasabi', 'restaurant_id': '41431748'}
+{'borough': 'Brooklyn', 'cuisine': 'Japanese', 'grades': [{'score': 13}, {'score': 18}, {'score': 2}, {'score': 31}], 'name': 'Wasabi', 'restaurant_id': '50002381'}
+{'borough': 'Brooklyn', 'cuisine': 'Korean', 'grades': [{'score': 11}, {'score': 11}], 'name': 'Little Dokebi', 'restaurant_id': '50003236'}{'borough': 'Manhattan', 'cuisine': 'Japanese', 'grades': [{'score': 9}], 'name': 'Hanabi', 'restaurant_id': '50010310'}
+{'borough': 'Manhattan', 'cuisine': 'Café/Coffee/Tea', 'grades': [{'score': 56}], 'name': 'Matcha Cafe Wabi', 'restaurant_id': '50016721'}  
+{'borough': 'Manhattan', 'cuisine': 'Other', 'grades': [], 'name': 'Kuro-Obi', 'restaurant_id': '50018850'}
+{'borough': 'Queens', 'cuisine': 'Chinese', 'grades': [{'score': 10}, {'score': 12}, {'score': 10}, {'score': 12}], 'name': 'Mr Wasabi', 'restaurant_id': '40997900'}
+{'borough': 'Queens', 'cuisine': 'Japanese', 'grades': [{'score': 7}, {'score': 13}, {'score': 9}], 'name': 'Gowasabi', 'restaurant_id': '41431748'}
+{'borough': 'Brooklyn', 'cuisine': 'Japanese', 'grades': [{'score': 13}, {'score': 18}, {'score': 2}, {'score': 31}], 'name': 'Wasabi', 'restaurant_id': '50002381'}
+{'borough': 'Brooklyn', 'cuisine': 'Korean', 'grades': [{'score': 11}, {'score': 11}], 'name': 'Little Dokebi', 'restaurant_id': '50003236'}{'borough': 'Manhattan', 'cuisine': 'Japanese', 'grades': [{'score': 9}], 'name': 'Hanabi', 'restaurant_id': '50010310'}
+{'borough': 'Manhattan', 'cuisine': 'Café/Coffee/Tea', 'grades': [{'score': 56}], 'name': 'Matcha Cafe Wabi', 'restaurant_id': '50016721'}  
+{'borough': 'Manhattan', 'cuisine': 'Other', 'grades': [], 'name': 'Kuro-Obi', 'restaurant_id': '50018850'}
+{'borough': 'Queens', 'cuisine': 'Chinese', 'grades': [{'score': 10}, {'score': 12}, {'score': 10}, {'score': 12}], 'name': 'Mr Wasabi', 'restaurant_id': '40997900'}
+{'borough': 'Queens', 'cuisine': 'Japanese', 'grades': [{'score': 7}, {'score': 13}, {'score': 9}], 'name': 'Gowasabi', 'restaurant_id': '41431748'}
+{'borough': 'Brooklyn', 'cuisine': 'Japanese', 'grades': [{'score': 13}, {'score': 18}, {'score': 2}, {'score': 31}], 'name': 'Wasabi', 'restaurant_id': '50002381'}
+{'borough': 'Brooklyn', 'cuisine': 'Korean', 'grades': [{'score': 11}, {'score': 11}], 'name': 'Little Dokebi', 'restaurant_id': '50003236'}{'borough': 'Manhattan', 'cuisine': 'Japanese', 'grades': [{'score': 9}], 'name': 'Hanabi', 'restaurant_id': '50010310'}
+{'borough': 'Manhattan', 'cuisine': 'Café/Coffee/Tea', 'grades': [{'score': 56}], 'name': 'Matcha Cafe Wabi', 'restaurant_id': '50016721'}  
+{'borough': 'Manhattan', 'cuisine': 'Other', 'grades': [], 'name': 'Kuro-Obi', 'restaurant_id': '50018850'}
+{'borough': 'Queens', 'cuisine': 'Chinese', 'grades': [{'score': 10}, {'score': 12}, {'score': 10}, {'score': 12}], 'name': 'Mr Wasabi', 'restaurant_id': '40997900'}
+{'borough': 'Queens', 'cuisine': 'Japanese', 'grades': [{'score': 7}, {'score': 13}, {'score': 9}], 'name': 'Gowasabi', 'restaurant_id': '41431748'}
+{'borough': 'Brooklyn', 'cuisine': 'Japanese', 'grades': [{'score': 13}, {'score': 18}, {'score': 2}, {'score': 31}], 'name': 'Wasabi', 'restaurant_id': '50002381'}
+{'borough': 'Brooklyn', 'cuisine': 'Korean', 'grades': [{'score': 11}, {'score': 11}], 'name': 'Little Dokebi', 'restaurant_id': '50003236'}{'borough': 'Manhattan', 'cuisine': 'Japanese', 'grades': [{'score': 9}], 'name': 'Hanabi', 'restaurant_id': '50010310'}
+{'borough': 'Manhattan', 'cuisine': 'Café/Coffee/Tea', 'grades': [{'score': 56}], 'name': 'Matcha Cafe Wabi', 'restaurant_id': '50016721'}  
+{'borough': 'Manhattan', 'cuisine': 'Other', 'grades': [], 'name': 'Kuro-Obi', 'restaurant_id': '50018850'}
+{'borough': 'Queens', 'cuisine': 'Chinese', 'grades': [{'score': 10}, {'score': 12}, {'score': 10}, {'score': 12}], 'name': 'Mr Wasabi', 'restaurant_id': '40997900'}
+****************************************************************************************************
+`````````
+## 14).Write a query to show all the restaurant Id, name, borough, cuisines, and score for those restaurants which contain 'il' anywhere in its name.
